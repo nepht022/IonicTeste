@@ -23,5 +23,6 @@
 - Typescript
 - Fontawesome
 - Ionic
+- Angular
 - Git
 - Github
