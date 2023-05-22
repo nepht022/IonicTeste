@@ -24,5 +24,6 @@
 - Fontawesome
 - Ionic
 - Angular
+- Sass
 - Git
 - Github
