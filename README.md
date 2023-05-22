@@ -3,7 +3,7 @@
 <p align="center">Aplicação de teste e estudo do Ionic</p>
 
 <p align="center">Preview da página Inicial (Zoom: 75%)</p>
-<img src="./src/assets/IonicTeste-Home-Preview.png">
+<img align="center" src="./src/assets/IonicTeste-Home-Preview.png">
 
 <p align="center">Preview da página com nome digitado (Zoom: 75%)</p>
 <img src="./src/assets/IonicTeste-Digitado-Preview.png">
