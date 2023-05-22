@@ -1,20 +1,153 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title class="ion-text-center">
+      IonicTeste
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <!--
+  <h1>Botões</h1>
+  <ion-button shape="round" color="warning" expand="block">Padrão<ion-icon slot="end" name="rose"></ion-icon></ion-button>
+  <ion-button href="#" fill="outline" size="large" color="success">Link</ion-button>
+  <ion-button color="danger" expand="full"><ion-icon slot="icon-only" name="skull"></ion-icon></ion-button>
+
+  <hr>
+  <h1>Cartões</h1>
+  <ion-card color="secondary" class="ion-text-center">
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">FADE</ion-card-title>
+      <ion-card-subtitle class="ion-text-center">Valorant</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-img src="https://pbs.twimg.com/media/Fqhyh6CXgAUN9Sd?format=jpg&name=large"></ion-img>
+
+    <ion-card-content>
+      <ion-card-title>Made by A.I.</ion-card-title>
+      <p>This is a image of the valorant character named Fade made by artificial inteligence</p>
+    </ion-card-content>
+  </ion-card>
+  <hr>
+
+  <ion-card class="ion-text-center ion-padding">
+    <ion-card-title>Frutas</ion-card-title>
+    <ion-item><ion-label>Maçã</ion-label></ion-item>
+    <ion-item><ion-label>Banana</ion-label></ion-item>
+    <ion-item><ion-label>Uva</ion-label></ion-item>
+  </ion-card>
+  <hr>
+
+  <h1>Listas</h1>
+  <ion-list class="ion-text-center ion-padding">
+    <ion-card-title>Doces</ion-card-title>
+
+    <ion-item>
+      <ion-avatar slot="start"><ion-img src="https://s2.glbimg.com/2MF5LvevjuYczLNtzsuGBlOpsbg=/0x0:638x359/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/e/j/Kn1yDXQSeKr4GmAzDXQQ/receita-de-brigadeiro-tradicional.png"></ion-img></ion-avatar>
+      <ion-label>1.Brigadeiro</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start"><ion-img src="https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/baking/image-thumb__70184__RecipeDetail/bolo-com-recheio-de-leite-em-po.webp"></ion-img></ion-avatar>
+      <ion-label>2.Bolo</ion-label>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list class="ion-text-center ion-padding">
+    <ion-card-title>Doces - Sliding</ion-card-title>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar slot="start"><ion-img src="https://s2.glbimg.com/2MF5LvevjuYczLNtzsuGBlOpsbg=/0x0:638x359/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/e/j/Kn1yDXQSeKr4GmAzDXQQ/receita-de-brigadeiro-tradicional.png"></ion-img></ion-avatar>
+        <ion-label>1.Brigadeiro</ion-label>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option color="danger">
+          <ion-icon slot="start" name="trash"></ion-icon>
+          Excluir
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  -->
+
+
+  <!--Entrada de dados-->
+  <!--
+  <h1>Entrada de dados</h1>
+  <ion-item>
+    <ion-label position="floating">Nome: </ion-label> fixed, floating e stacked
+    <ion-input clearInput placeholder="Digite seu nome"></ion-input> value, placeholder, clearInput
+  </ion-item><hr>
+
+  <ion-item>
+    <ion-label>Email: </ion-label>
+    <ion-input type="email"></ion-input> text, number, password, email, tel, url, search
+  </ion-item>
+  -->
+
+
+  <!--Grid-->
+  <!--
+  <h1>Grid</h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">Coluna 1 - Linha 1</ion-col>
+      <ion-col size="6">Coluna 2 - Linha 1</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4" offset="1">Coluna 1 - Linha 2</ion-col>
+      <ion-col size="4" offset="2">Coluna 2 - Linha 2</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row class="ion-text-center ion-align-items-center">
+      <ion-col size="4">Coluna 1 - Linha 3</ion-col>
+      <ion-col size="8">Coluna 2 - Linha 3</ion-col>
+    </ion-row>
+  </ion-grid>
+  -->
+
+
+  <!--Data Binding de home.page.ts ate aqui-->
+  <!--
+  <h1>Data Binding</h1> 
+  <h4>String Interpolation</h4>
+  {{titulo}}
+  <ion-img src="{{imagemLocal}}"></ion-img><hr>
+
+  <h4>Property Binding</h4>
+  <ion-img [src]="imagemWeb"></ion-img><hr>
+
+  <h4>Event Binding</h4>
+  <ion-button (click)="mudaTitulo()" color="secondary">Click</ion-button>
+  <ion-item>
+    <ion-label position="stacked">Nome: </ion-label>
+    <ion-input (input)="atualizaTitulo()"></ion-input>
+  </ion-item>
+  -->
+
+
+  <!--Navegação-->
+  <h1>Navegação</h1>
+  <ion-button (click)="trocarPagina()">Botoes</ion-button>
+  <!--<ion-button [href]="'/botoes'" routerDirection="forward">Botoes</ion-button>-->
+
+
+  <!--Modelos-->
+  <h1>Modelos</h1>
+  <ion-item>
+    <ion-label position="floating">Nome:</ion-label>
+    <ion-input [(ngModel)]="caixaTexto" type="text"></ion-input>
+  </ion-item>
+  <ion-button (click)="recuperar()">Revelar</ion-button>
+  {{resultado}}
+
+
 </ion-content>
