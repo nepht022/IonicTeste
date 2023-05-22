@@ -6,13 +6,13 @@
 <div align="center"><img src="./src/assets/IonicTeste-Home-Preview.png"></div>
 
 <p align="center">Preview da página com nome digitado (Zoom: 75%)</p>
-<img src="./src/assets/IonicTeste-Digitado-Preview.png">
+<div align="center"><img src="./src/assets/IonicTeste-Digitado-Preview.png"></div>
 
 <p align="center">Preview da página com nome revelado (Zoom: 75%)</p>
-<img src="./src/assets/IonicTeste-Revelado-Preview.png">
+<div align="center"><img src="./src/assets/IonicTeste-Revelado-Preview.png"></div>
 
 <p align="center">Preview da página de botões (Zoom: 75%)</p>
-<img src="./src/assets/IonicTeste-Botoes-Preview.png">
+<div align="center"><img src="./src/assets/IonicTeste-Botoes-Preview.png"></div>
 
 
 ## Ferramentas
